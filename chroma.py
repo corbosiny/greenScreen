@@ -12,7 +12,7 @@ def nothing(value):
     pass
 
 
-cv2.createTrackbar('H_U','sliders',0,255,nothing)
+cv2.createTrackbar('H_U','sliders',0,255,nothing) # Value range
 cv2.createTrackbar('H_L','sliders',0,255,nothing)
 cv2.createTrackbar('S_U','sliders',0,255,nothing)
 cv2.createTrackbar('S_L','sliders',0,255,nothing)
